@@ -1,0 +1,142 @@
+<html>
+    <style>
+        .logo{
+            text-align: center;
+            margin-top: 140px;
+        }
+
+        .searchbar {
+            text-align: center;
+            margin-top: 34px;
+        }
+
+        input[type=text], select {
+            width: 600px;
+            padding: 14px;
+            border: 1px solid silver;
+            border-radius: 20px;
+            background-image: url('microphone.png');
+            background-repeat: no-repeat;
+            background-size: 24px;
+            background-position: 98% 8px;
+            back
+
+        }
+        input[type=submit], select {
+            width: 130px;
+            padding: 10px;
+            margin-left: 8px;
+            margin-right: 8px;
+            margin-top: 25px;
+            border: 1px solid #F2F2F2;
+            background-color: #F2F2F2;
+        }
+
+        .topbar {
+            list-style-type: none;
+            margin: 0px;
+            padding: 15px 10px;
+        }
+
+        .secondbottom {
+            list-style-type:none;
+            position: absolute;
+            padding: 10px 10px;
+            bottom:20px;
+            background-color: #F2F2F2;
+            width: 100%;
+            border-top: 1px solid #E2E2E2;
+            
+        }
+
+        .bottombar {
+            list-style-type: none;
+            position:fixed;
+            padding: 14px 10px;
+            bottom:-15px;
+            background-color: #F2F2F2;
+            width: 100%;
+            border-top: 1px solid #E2E2E2;
+            
+
+        }
+        li {
+            float: left;
+            padding: 0 12px;
+            color: black;
+            font-family: arial, sans-serif;
+            text-decoration: none;
+            font-size: 12px;
+            
+
+            
+        }
+
+        li a {
+            color: black;
+            font-family: arial, sans-serif;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .rightnav {
+            position: fixed;
+            right: 10px;
+        }
+
+        
+    </style>
+    <body>
+        <div>
+            <ul class="topbar"> 
+                <li> <a href="#home">About</a></li>
+                <li> <a href="#store">Store</a></li>
+                
+                <div class="rightnav">
+                <li> <a href="#gmail">Gmail </a></li>
+                <li> <a href="#images">Images</a></li>
+                
+                
+                </div>
+            </ul>
+        </div>
+        <br>
+        <div class="logo">
+                
+            <img src="googlelogo_color_272x92dp.png">
+        </div>
+            <div class="searchbar">
+                          
+               
+                <form action="/search.php" target="_self">
+                    <input type="text" name="thesearch">
+
+                    <br>
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
+                </form>
+                </div>
+                <br>
+                <div>
+                    <ul class="secondbottom">
+                        <li> United Kingdom</li>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                        <ul class="bottombar">
+                            <li> <a href="#advertising">Advertising</a></li>
+                            <li> <a href="#business">Business</a></li>
+                            <li> <a href="#howsearchworks">How Search Works</a></li>
+                            
+                            <div class="rightnav">
+                            <li> <a href="#privacy">Privacy </a></li>
+                            <li> <a href="#terms">Terms</a></li>
+                            <li> <a href="#settings">Settings</a></li>
+                            </div>
+                        </ul>
+                    </div>
+
+        </div>
+    </body>
+</html>
